@@ -19,16 +19,19 @@ public class MultipleWindowsSteps extends BaseTest {
 
     @When("^User will click on \"Click Here\" link$")
     public void userWillClickOnLink() {
+        LOG.info("Create new browser tab");
         multipleWindowsPage.clickOnCreateNewWindowLink();
     }
 
     @And("^New window with text \"New Window\" is created$")
     public void newWindowWithTextIsCreated() {
+        LOG.info("Verify new browser tab is selected");
         multipleWindowsPage.newWindowIsSelected();
     }
 
     @Then("^User can close window and focus on windows page$")
     public void userCanCloseWindowAndFocusOnWindowsPage() {
+        LOG.info("Close new browser tab");
         multipleWindowsPage.closeNewlyCreatedWindow();
     }
 }

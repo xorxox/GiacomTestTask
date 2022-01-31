@@ -21,6 +21,7 @@ public class CheckboxesSteps extends BaseTest {
 
     @When("^Checkbox (\\d+) is \"([^\"]*)\"$")
     public void checkboxIs(int checkboxNumber, String state) {
+        LOG.info("Check state of checkbox " + checkboxNumber + ", state should be " + state);
         switch (checkboxNumber) {
             case 1 -> {
                 if ("checked".equals(state)) {
@@ -42,6 +43,7 @@ public class CheckboxesSteps extends BaseTest {
 
     @Then("^Set checkbox (\\d+) to \"([^\"]*)\"$")
     public void setCheckboxTo(int checkboxNumber, String state) {
+        LOG.info("Set state of checkbox " + checkboxNumber + " to state " + state);
         switch (checkboxNumber) {
             case 1 -> {
                 checkboxesPage.checkFirstCheckbox();
@@ -65,6 +67,7 @@ public class CheckboxesSteps extends BaseTest {
 
     @And("^Reload page and verify default state is set$")
     public void reloadPageAndVerifyDefaultStateIsSet() {
+        LOG.info("Verify checkboxes are set to default correct values");
         checkboxesPage.reloadPage();
         checkboxIs(1, "unchecked");
         checkboxIs(2, "checked");

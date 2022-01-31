@@ -18,11 +18,13 @@ public class LandingSteps extends BaseTest {
 
     @Then("^User is on landing page$")
     public void userIsOnLandingPage() throws Exception {
+        LOG.info("Verify landing page is open");
         landingPage.verifyLandingPageIsPresent();
     }
 
     @Given("^User will logout$")
     public void userWillLogout() {
+        LOG.info("Logout from website");
         landingPage.logOutFromLandingPage();
     }
 }

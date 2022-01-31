@@ -3,6 +3,7 @@ package giacom.general.steps;
 import cucumber.api.java.en.Given;
 import giacom.general.pages.*;
 import giacom.settings.base.BaseTest;
+import org.apache.logging.log4j.Level;
 
 import javax.inject.Inject;
 
@@ -43,13 +44,17 @@ public class GeneralSteps extends BaseTest {
 
     @Given("^User will login and is on landing page$")
     public void userWillLoginAndIsOnLandingPage() throws Exception {
+        LOG.isEnabled(Level.OFF);
         loginSteps.userOpenLoginPage();
         loginSteps.userLoginWithValidLoginCredentialsLoginPassword(USERNAME, PASSWORD);
         landingPage.verifyLandingPageIsPresent();
+        LOG.isEnabled(Level.ALL);
+        LOG.info("User is logged in and on landing page");
     }
 
     @Given("^User will open \"([^\"]*)\" page$")
     public void userWillOpenPage(String pageType) {
+        LOG.info("Open " + pageType + " page");
         switch (pageType) {
             case CHALLENGING_DOM -> {
                 landingPage.openChallengingDomPage();
@@ -71,9 +76,8 @@ public class GeneralSteps extends BaseTest {
                 landingPage.openJavaScriptAlertPage();
                 javaScriptsAlertsPage.javaScriptsAlertsPageIsOpen();
             }
-            case LARGE_AND_DEEP_DOM -> {
+            case LARGE_AND_DEEP_DOM ->
                 landingPage.openLargeAndDeepDomPage();
-            }
             case MULTIPLE_WINDOWS -> {
                 landingPage.openMultipleWindowsPage();
                 multipleWindowsPage.multipleWindowsPageIsOpen();

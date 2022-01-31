@@ -1,24 +1,24 @@
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\LoginSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\pages\LoginPage.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\LandingSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\JavaScriptAlertsSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\pages\EntryAdPage.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\settings\base\BaseTest.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\pages\CheckboxesPage.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\settings\base\Constants.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\EntryAdSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\pages\LandingPage.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\settings\configuration\PageObject.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\pages\JavaScriptsAlertsPage.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\CheckboxesSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\settings\base\BasePage.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\ChallengingDomSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\pages\MultipleWindowsPage.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\settings\configuration\PageObjectBeanPostProcessor.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\GeneralSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\InputsSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\steps\MultipleWindowsSteps.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\pages\InputsPage.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\settings\configuration\ChromeDriverBean.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\settings\base\Topology.java
-E:\Nagash\Work\Code\Giacom\giacom\src\main\java\giacom\general\pages\ChallengingDomPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\LandingSteps.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\pages\InputsPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\pages\JavaScriptsAlertsPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\pages\CheckboxesPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\pages\MultipleWindowsPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\LoginSteps.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\settings\base\Constants.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\pages\EntryAdPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\EntryAdSteps.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\settings\configuration\ChromeDriverBean.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\CheckboxesSteps.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\settings\base\Topology.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\settings\configuration\PageObjectBeanPostProcessor.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\JavaScriptAlertsSteps.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\pages\LoginPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\ChallengingDomSteps.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\settings\configuration\PageObject.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\pages\ChallengingDomPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\GeneralSteps.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\pages\LandingPage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\settings\base\BasePage.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\settings\base\BaseTest.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\InputsSteps.java
+E:\Nagash\Work\Code\Giacom Finish\GiacomTestTask\giacom\src\main\java\giacom\general\steps\MultipleWindowsSteps.java

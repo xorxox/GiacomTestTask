@@ -18,6 +18,7 @@ public class EntryAdSteps extends BaseTest {
 
     @Then("^User will close modal window$")
     public void userWillCloseModalWindow() {
+        LOG.info("Close modal window");
         entryAdPage.closeModalWindow();
     }
 }
