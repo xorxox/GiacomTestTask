@@ -1,0 +1,996 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3673143500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User log out path",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;user-log-out-path",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 203031000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will logout",
+            "match": {
+              "location": "LandingSteps.userWillLogout()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82136500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will be on login page",
+            "match": {
+              "location": "LoginSteps.userWillBeOnLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222599600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User cannot access landing page",
+            "match": {
+              "location": "LoginSteps.userCannotAccessLandingPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 510963000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Challenging DOM",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;challenging-dom;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 190851800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User will open \"Challenging DOM\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Challenging DOM",
+                  "offset": 16
+                }
+              ],
+              "location": "GeneralSteps.userWillOpenPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70067800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User will be able verify that \"Definiebas2\" in selected \"3\" and \"Sit\" is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Definiebas2",
+                  "offset": 31
+                },
+                {
+                  "val": "3",
+                  "offset": 57
+                },
+                {
+                  "val": "Sit",
+                  "offset": 65
+                }
+              ],
+              "location": "ChallengingDomSteps.userWillBeAbleVerifyThatInSelectedAndIsCorrect(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 518025400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Challenging DOM",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;challenging-dom;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 181397800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User will open \"Challenging DOM\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Challenging DOM",
+                  "offset": 16
+                }
+              ],
+              "location": "GeneralSteps.userWillOpenPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61088700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User will be able verify that \"Consequuntur6\" in selected \"7\" and \"Amet\" is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Consequuntur6",
+                  "offset": 31
+                },
+                {
+                  "val": "7",
+                  "offset": 59
+                },
+                {
+                  "val": "Amet",
+                  "offset": 67
+                }
+              ],
+              "location": "ChallengingDomSteps.userWillBeAbleVerifyThatInSelectedAndIsCorrect(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 497205300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Challenging DOM",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;challenging-dom;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 177349400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User will open \"Challenging DOM\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Challenging DOM",
+                  "offset": 16
+                }
+              ],
+              "location": "GeneralSteps.userWillOpenPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61372400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User will be able verify that \"Consequuntur7\" in selected \"8\" and \"Amet\" is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Consequuntur7",
+                  "offset": 31
+                },
+                {
+                  "val": "8",
+                  "offset": 59
+                },
+                {
+                  "val": "Amet",
+                  "offset": 67
+                }
+              ],
+              "location": "ChallengingDomSteps.userWillBeAbleVerifyThatInSelectedAndIsCorrect(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 493005200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Not persistent checkboxes",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;not-persistent-checkboxes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174780800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User will open \"Checkboxes\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checkboxes",
+                  "offset": 16
+                }
+              ],
+              "location": "GeneralSteps.userWillOpenPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29863500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Checkbox 2 is \"checked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 9
+                },
+                {
+                  "val": "checked",
+                  "offset": 15
+                }
+              ],
+              "location": "CheckboxesSteps.checkboxIs(int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66373400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Set checkbox 2 to \"unchecked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 13
+                },
+                {
+                  "val": "unchecked",
+                  "offset": 19
+                }
+              ],
+              "location": "CheckboxesSteps.setCheckboxTo(int,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92862400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Set checkbox 1 to \"checked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 13
+                },
+                {
+                  "val": "checked",
+                  "offset": 19
+                }
+              ],
+              "location": "CheckboxesSteps.setCheckboxTo(int,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166866600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Reload page and verify default state is set",
+            "match": {
+              "location": "CheckboxesSteps.reloadPageAndVerifyDefaultStateIsSet()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 486268900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Page with entry advertisement",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;page-with-entry-advertisement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 688871100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User will open \"Entry Ad\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Entry Ad",
+                  "offset": 16
+                }
+              ],
+              "location": "GeneralSteps.userWillOpenPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 665765500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User will close modal window",
+            "match": {
+              "location": "EntryAdSteps.userWillCloseModalWindow()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 504981700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Basic inputs",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;basic-inputs",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162821500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User will open \"Inputs\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Inputs",
+                  "offset": 16
+                }
+              ],
+              "location": "GeneralSteps.userWillOpenPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66994300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User will fill \"empty_data\" form and submit it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empty_data",
+                  "offset": 16
+                }
+              ],
+              "location": "InputsSteps.userWillFillFormAndSubmitIt(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 312147300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User will fill \"wrong_email_data\" form and submit it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wrong_email_data",
+                  "offset": 16
+                }
+              ],
+              "location": "InputsSteps.userWillFillFormAndSubmitIt(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210021400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User will fill \"all_correct_data\" form and submit it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "all_correct_data",
+                  "offset": 16
+                }
+              ],
+              "location": "InputsSteps.userWillFillFormAndSubmitIt(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145184800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User will verify form was accepted",
+            "match": {
+              "location": "InputsSteps.userWillVerifyFormWasAccepted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 494184200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "JavaScript Alerts",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;javascript-alerts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 169361000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User will open \"Javascript Alerts\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Javascript Alerts",
+                  "offset": 16
+                }
+              ],
+              "location": "GeneralSteps.userWillOpenPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58084500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User will click on \"Click for JS Alert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Click for JS Alert",
+                  "offset": 20
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userWillClickOnButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3283700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User is able to close \"alert\" alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alert",
+                  "offset": 23
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userIsAbleToCloseAlert(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38153200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User can see \"successful\" result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "successful",
+                  "offset": 14
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userCanSeeResult(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72278100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User will click on \"Click for JS Confirm\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Click for JS Confirm",
+                  "offset": 20
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userWillClickOnButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2314900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User is able to close \"confirm\" alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "confirm",
+                  "offset": 23
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userIsAbleToCloseAlert(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31022300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User can see \"clicked\" result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "clicked",
+                  "offset": 14
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userCanSeeResult(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65658400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User will click on \"Click for JS Prompt\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Click for JS Prompt",
+                  "offset": 20
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userWillClickOnButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 698800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User is able to verify alert",
+            "match": {
+              "location": "JavaScriptAlertsSteps.userIsAbleToVerifyAlert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3503800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User is able to fill alert with \"check1\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "check1",
+                  "offset": 33
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userIsAbleToFillAlertWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30484400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User can see \"entered\" result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "entered",
+                  "offset": 14
+                }
+              ],
+              "location": "JavaScriptAlertsSteps.userCanSeeResult(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 474435100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will login and is on landing page",
+            "match": {
+              "location": "GeneralSteps.userWillLoginAndIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Multiple Windows",
+        "description": "",
+        "id": "tasks-for-tester-tech-test;multiple-windows",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 222491600,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User will open \"Multiple Windows\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Multiple Windows",
+                  "offset": 16
+                }
+              ],
+              "location": "GeneralSteps.userWillOpenPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59280300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User will click on \"Click Here\" link",
+            "match": {
+              "location": "MultipleWindowsSteps.userWillClickOnLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2046321000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "New window with text \"New Window\" is created",
+            "match": {
+              "location": "MultipleWindowsSteps.newWindowWithTextIsCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20068600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User can close window and focus on windows page",
+            "match": {
+              "location": "MultipleWindowsSteps.userCanCloseWindowAndFocusOnWindowsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tasks For Tester Tech Test",
+    "description": "Rest of the task requiring Background feature for login",
+    "id": "tasks-for-tester-tech-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/giacom/features/AutomationTask.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User log in with valid credentials",
+        "description": "",
+        "id": "user-login;user-log-in-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111725500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open login page",
+            "match": {
+              "location": "LoginSteps.userOpenLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 310521600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login with valid login credentials (login: \"admin\", password: \"bluebird\")",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 49
+                },
+                {
+                  "val": "bluebird",
+                  "offset": 68
+                }
+              ],
+              "location": "LoginSteps.userLoginWithValidLoginCredentialsLoginPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53421300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on landing page",
+            "match": {
+              "location": "LandingSteps.userIsOnLandingPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Login",
+    "description": "User Login test",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "src/test/java/giacom/features/Login.feature"
+  }
+]

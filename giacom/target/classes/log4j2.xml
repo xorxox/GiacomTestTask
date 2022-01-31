@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="INFO">
+    <appenders>
+        <Console name="Console-err" target="SYSTEM_ERR">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <filters >
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+                <ThresholdFilter level="FATAL" onMatch="ACCEPT" onMismatch="DENY"/>
+            </filters>
+        </Console>
+        <Console name="Console-out" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <filters >
+                <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="FATAL" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </filters>
+        </Console>
+        <RollingFile name="File" fileName="logs/log4j.log" filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <pattern>%d [%t] %-5level %logger{36} - %msg%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="20 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+    </appenders>
+    <loggers>
+        <root level="info">
+            <appender-ref ref="Console-out"/>
+            <appender-ref ref="Console-err"/>
+            <appender-ref ref="File"/>
+        </root>
+    </loggers>
+</configuration>
